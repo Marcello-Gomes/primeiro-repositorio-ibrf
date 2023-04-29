@@ -6,6 +6,7 @@ document.getElementById("formulario-cadastro").addEventListener('submit', (event
     const form = { nome, email, senha }
     //alert(JSON.stringify(form, null, 2))
 
+/*
     fetch(' http://localhost:3000/casdastro', {
         method: 'POST',
         headers: {
@@ -14,5 +15,8 @@ document.getElementById("formulario-cadastro").addEventListener('submit', (event
         body:JSON.stringify(form)
 
     })
+    */
+   axios.post('http://localhost:3000/casdastro', data)
 
 })
+
