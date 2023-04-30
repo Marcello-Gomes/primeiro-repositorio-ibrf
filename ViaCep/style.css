@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    width: 100vh;
+    height: 100vw;
+}
+
+section {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    
+
+}
+
+section#search-container {
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 5, 0.5);
+    height: 100px;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+section#search-container label {
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #007BFF;
+
+}
+
+section#search-container input {
+    padding: 5px;
+    font-size: 14px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 0;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+}
+
+section#search-container button {
+    padding: 5px 20px;
+    background-color: #007BFF;
+    width: 175px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+section#search-container button:hover {
+    background-color: white;
+    color: #007BFF;
+}
+
+
+section#result-container {
+    padding: 15px;
+    flex-direction: column;    
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 5, 0.5);
+    height: 400px;
+    margin-top: 10px;
+
+}
+
+table#resultado thead tr {
+    background-color: #007BFF;
+    color: white;
+    font-weight: 700;
+
+}
+
+table#resultado tbody tr {
+    background-color:#fcfcfc;
+    color: #007BFF;
+}
