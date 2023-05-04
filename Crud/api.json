@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "teste",
+      "name": "teste1",
       "price": "0.01"
     },
     {
@@ -31,34 +31,9 @@
       "price": "0.06"
     },
     {
-      "id": 7,
       "name": "teste 7",
-      "price": "0.07"
-    },
-    {
-      "id": 8,
-      "name": "teste 8",
-      "price": "0.08"
-    },
-    {
-      "id": 9,
-      "name": "teste 8",
-      "price": "0.08"
-    },
-    {
-      "id": 10,
-      "name": "teste 8",
-      "price": "0.08"
-    },
-    {
-      "id": 11,
-      "name": "teste 8",
-      "price": "0.08"
-    },
-    {
-      "id": 12,
-      "name": "teste 8",
-      "price": "0.08"
+      "price": "0.08",
+      "id": 7
     }
   ]
 }
